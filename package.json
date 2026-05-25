@@ -1,13 +1,22 @@
 {
-  "name": "node-express-static-web-server",
+  "name": "Práctica 1 de PAI",
   "version": "1.0.0",
-  "description": "Node Express Static Web Server",
-  "scripts": {
-    "start": "node web-server/app.js"
-  },
-  "author": "Kevin Chisholm",
+  "description": "Entorno de desarrollo. Node Express Static Web Server",
+  "author": "F. de Sande <fsande@ull.es>",
   "license": "MIT",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node scripts/app.js"
+  },
+  "keywords": [
+    "PAI"
+  ],
   "dependencies": {
-    "express": "^4.17.2"
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "typedoc": "^0.28.19",
+    "typescript": "^6.0.3"
   }
 }
