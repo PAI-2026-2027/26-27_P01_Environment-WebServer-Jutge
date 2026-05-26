@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Entorno de desarrollo. Node Express Static Web Server",
   "author": "F. de Sande <fsande@ull.es>",
-  "license": "MIT",
+  "license": "GPL",
   "private": true,
   "main": "index.js",
   "scripts": {
