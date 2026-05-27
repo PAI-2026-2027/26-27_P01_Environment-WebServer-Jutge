@@ -91,8 +91,9 @@ Podrá utilizar indistintamente las direcciones `aluXXXX@ull.edu.es` y el alias 
 
 4. **TAREA #03** [GitHub](https://github.com/) 
 es una plataforma de desarrollo colaborativo para alojar proyectos utilizando el sistema de control de versiones Git.
-Si no dispone ya de una, cree una cuenta en [GitHub](https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home). 
-Configure el perfil de esa cuenta de modo que incluya una imagen (fotografía) en la que se le reconozca y haga que la cuenta de e-mail asociada sea la dirección institucional o su alias.
+Si no dispone ya de una, cree una cuenta en 
+[GitHub](https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home). 
+Configure el perfil de esa cuenta de modo que la cuenta de e-mail asociada sea la dirección institucional o su alias.
 Para la configuración de esa cuenta se le recomienda usar su nombre real, puesto que sus repositorios de código en GitHub
 pasarán a formar parte de su curriculum profesional.
 
@@ -220,7 +221,7 @@ Consulte para ello las instrucciones
 cd
 mkdir practicas
 cd practicas
-git clone git@github.com:ULL-ESIT-PAI-2025-2026/25-26_PAI-P01_Environment-WebServer-Jutge.git
+git clone git@github.com:PAI-2026-2027/26-27_P01_Environment-WebServer-Jutge.git
 ```
  
 14. En la máquina local ejecute el Microsoft Visual Studio Code (VSC) y siga 
@@ -273,11 +274,11 @@ No es necesario que conozca los detalles de estas herramientas, sino simplemente
 Si todo funciona correctamente, al abrir un navegador en la URL `http://<your VM IP address>:8080` debería ejecutar en esa web un programa que calcula el 
 valor de PI de forma aproximada.
 
-Modificando convenientemente el fichero index.html (o colocando los ficheros necesarios en su lugar) en el directorio `www` del proyecto 
+Modificando convenientemente el fichero `index.html` (o colocando los ficheros necesarios en su lugar) en el directorio `scripts` del proyecto 
 creado puede visualizar diferentes webs que pudiera crear en el futuro. Experimente con este servidor web.
 
 Para instalar el servidor se utilizará 
-[Node.js](https://nodejs.org), 
+[Node.js](https://nodejs.org)
 que es un entorno de ejecucion para JavaScript.
 
 
@@ -285,25 +286,29 @@ que es un entorno de ejecucion para JavaScript.
 [esta referencia](https://lenguajejs.com/npm/introduccion/instalacion-node-con-pnpm/) 
 para conocer `pnpm` e instalarlo en la máquina virtual.
 
-Siguiendo esas instrucciones, instale la versión LTS de node y cuando finalice, compruebe que tiene instalados Node y Npm:
+Siguiendo las instrucciones anteriores, instale la versión LTS de node y cuando finalice, compruebe que tiene instalados node y pnpm:
 ```
 $ node --version
-$ npm --version
+$ pnpm --version
 ```
 18. **TAREA #08** Instale el compilador de TypeScript usando el comando:
+
 `pnpm install -g typescript`
+
 y compruebe que ha quedado instalado ejecutando
+
 `tsc --version`
 
-compile a continuación el programa `computePI.ts' usando:
-`tsc computePI.ts`
+Colóquese en el directorio `src/exercises/home-work/computePI` de este proyecto y compile el programa `computePI.ts' usando:
 
-y observe cómo ello produce la creación del fichero `computePI.js`, versión JavaScript del programa original
-TypeScript.
+`tsc`
+
+El fichero `tsconfig.json` es el fichero de configuración que se usa para la compilación.
+Observe que como producto de la transpilación se produce el fichero `computePI.js`, versión JavaScript del programa original TypeScript.
 
 19. **TAREA #09** Utilice el VSC para editar de forma remota el código fuente del programa 
-[computePI.ts](https://github.com/ULL-ESIT-PAI-2025-2026/25-26_PAI-P01_Environment-WebServer-Jutge/blob/main/www/computePI/computePI.ts)
-que se encuentra en el directorio `www/js/` del proyecto de esta práctica.
+[computePI.ts](https://github.com/PAI-2026-2027/26-27_P01_Environment-WebServer-Jutge/blob/main/src/exercises/home-work/computePI/computePI.ts)
+que se encuentra en el directorio `src/exercises/home-work/computePI` del proyecto de esta práctica.
 Modifique el programa para que el texto `Introduzca el número de rectángulos` se muestre en español en lugar de inglés.
 
 ### Configuración
@@ -317,13 +322,13 @@ cd <yourDirectory>
 21. Ejecute este comando:
 
 ```
-npm install
+pnpm install
 ```
 
 22. Ejecute a continuación:
 
 ```
-npm start
+pnpm start
 ```
 
 23. **TAREA #10** Abra una página en su navegador local con la siguiente dirección:
