@@ -5,12 +5,15 @@ This is a repository to host the code of your lab assignment
 The current project directory organization is as follows:
 ```
 .
+├── dist
 ├── public
 ├── scripts
 └── src
     └── exercises
         ├── evaluation-session
         └── home-work
+            ├── bouncingBalls
+            └── computePI
 ```
 
 Some folders are currently empty and could be used in future labs assignments.

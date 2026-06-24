@@ -9,6 +9,10 @@
   "scripts": {
     "start": "node scripts/app.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PAI-2026-2027/26-27_P01_Environment-WebServer-Jutge.git"
+  },
   "keywords": [
     "PAI"
   ],
