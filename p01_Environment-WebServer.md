@@ -61,30 +61,11 @@ En todo caso recuerde que si desea acceder a las máquinas de la Universidad des
 universitario necesitará Ud. configurar una conexión usando [VPN](https://es.wikipedia.org/wiki/Red_privada_virtual).
 Para configurar la conexión VPN siga las instrucciones de la
 [Guía Rápida de Configuración del cliente VPN](https://www.ull.es/servicios/stic/wp-content/uploads/sites/2/2026/03/Guia-Rapida-01-VPN-USUARIOS-ULL-Configuracion-del-cliente-VPN.docx-1.pdf?x2750087).
-% la página [Servicio de VPN de la ULL](https://www.ull.es/servicios/stic/2016/05/10/servicio-de-vpn-de-la-ull/).  
-
 
 Para conexiones VPN usando Windows ha de descargar el cliente VPN desde la
 [web de FortiNet](https://www.fortinet.com/lat/support/product-downloads#vpn).
-
-
-%[Esta imagen](https://raw.githubusercontent.com/fsande/IB-P01-EntornoIaaS/3b0223eef4fff02835108ac59ea8d2f2f26c43cc/img/GlobalProtect.PNG)
-%muestra el establecimiento de la conexión VPN con la red de la ULL,
-%[esta otra](https://raw.githubusercontent.com/fsande/IB-P01-EntornoIaaS/3b0223eef4fff02835108ac59ea8d2f2f26c43cc/img/GlobalProtect_InicioSesi%C3%B3n.PNG)
-%muestra el inicio de sesión y finalmente
-%[esta última](https://raw.githubusercontent.com/fsande/IB-P01-EntornoIaaS/3b0223eef4fff02835108ac59ea8d2f2f26c43cc/img/GlobalProtect_Conectado.PNG)
-%muestra la conexión ya establecida.
-
-[Este vídeo](https://youtu.be/ZHZ-R--fQ68) muestra cómo establecer en linux una conexión vpn y 
-[Este otro vídeo](https://www.youtube.com/watch?v=jHUfeN_NMYE&feature=youtu.be) muestra cómo conectar desde linux usando ssh con una máquina virtual del IaaS.
-
-2. Estudie si le resulta necesario el documento 
-[Manual de administración de Máquinas](https://docs.google.com/document/d/1nj-dxu7LXrNhj3ewCdfaPSc8OV4e_TYpGTQdK78YExY/edit).
-Tenga en cuenta que el acceso a la infraestructura IaaS está ligado a que esté Ud. registrada/o en el Aula
-Virtual de la Asignatura.
-Siga las instrucciones de ese documento para acceder a la [interfaz web de las máquinas IaaS](https://iaas.ull.es)
-(necesitará establecer una conexión VPN).
-
+[Este vídeo](https://www.youtube.com/watch?v=jHUfeN_NMYE&feature=youtu.be) 
+muestra cómo conectar desde linux usando ssh con una máquina virtual del IaaS.
 
 3. **TAREA #02** Acceda al [portal de gestión de usuarios](https://usuarios.ull.es/autogestion/cambio_alias/)
 del Servicio TIC de la ULL y configure allí una dirección de correo electrónico alternativa a su dirección
