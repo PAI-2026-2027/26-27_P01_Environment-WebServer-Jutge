@@ -55,7 +55,6 @@ Tenga esto en cuenta a la hora de decidirse por cualquiera de estas opciones.
 Una opción alternativa que se considera menos adecuada consiste en no instalar un sistema Linux sino acceder 
 a la máquina virtual IaaS de la asignatura desde Windows usando para ello un cliente ssh. 
 Se recomienda para este caso instalar en Windows [el cliente ssh PuTTY](https://putty.org/index.html) que puede Ud. descargar libremente.  
-%[Este vídeo](https://www.youtube.com/watch?v=_-rS8QM0JaI) muestra cómo configurar la VPN en Windows y cómo usar Putty para acceder a una máquina virtual.
 
 En todo caso recuerde que si desea acceder a las máquinas de la Universidad desde fuera del campus
 universitario necesitará Ud. configurar una conexión usando [VPN](https://es.wikipedia.org/wiki/Red_privada_virtual).
@@ -64,6 +63,7 @@ Para configurar la conexión VPN siga las instrucciones de la
 
 Para conexiones VPN usando Windows ha de descargar el cliente VPN desde la
 [web de FortiNet](https://www.fortinet.com/lat/support/product-downloads#vpn).
+
 [Este vídeo](https://www.youtube.com/watch?v=jHUfeN_NMYE&feature=youtu.be) 
 muestra cómo conectar desde linux usando ssh con una máquina virtual del IaaS.
 
@@ -101,7 +101,6 @@ Para editar algunas líneas concretas de un fichero de texto usando vi siga esta
 * Ahora escriba `:wq!` y presione ENTER para guardar los cambios en disco. W es para escribir (Write), Q para salir (Quit) y ! se usa para forzar la escritura.
 
 ### El Entorno ULL-IaaS
-
 Desarrolle en secuencia cada una de las tareas que se describen en los siguientes puntos, pero ocúpese no solo de “ejecutar comandos” 
 sino de estudiar y entender el significado e implicaciones de cada uno de ellos.
 
@@ -111,14 +110,10 @@ y máquina local al PC del centro de cálculo en el que está trabajando.
 Recuerde siempre que para poder conectarse por ssh con las máquinas virtuales de IaaS ull ha de autentificarse en la página 
 [valida.ull.es](https://valida.ull.es/).  
 Recuerde asimismo que en caso de acceder desde fuera de del campus ULL ha de hacerlo mediante una conexión VPN. 
-Consulte [esta referencia](https://www.ull.es/servicios/stic/2016/05/10/servicio-de-vpn-de-la-ull/) 
-(en el Centro de Cálculo, por ahora no lo necesita) para conectarse a través de vpn.
 
 7. Acceda a la [interfaz web](https://iaas.ull.es/ovirt-engine/sso/login.html) 
 de la plataforma IaaS-ULL y autentifíquese en esa interfaz con sus credenciales (username + password) de la cuenta institucional. 
-Tenga en cuenta que la 
-[interfaz web de las máquinas IaaS](https://iaas.ull.es)
-no soporta muchas conexiones concurrentes de modo que es conveniente que se conecte Ud. cuanto antes para no
+Tenga en cuenta que esa interfaz no soporta muchas conexiones concurrentes de modo que es conveniente que se conecte Ud. cuanto antes para no
 coincidir con otros estudiantes en esa conexión.
 [Esta imagen](https://raw.githubusercontent.com/fsande/IB-P01-EntornoIaaS/3b0223eef4fff02835108ac59ea8d2f2f26c43cc/img/1-Ovirt-login.png)
 muestra la pantalla de acceso a la interfaz.  
