@@ -61,7 +61,8 @@ universitario necesitará Ud. configurar una conexión usando [VPN](https://es.w
 Para configurar la conexión VPN siga las instrucciones de la
 [Guía Rápida de Configuración del cliente VPN](https://www.ull.es/servicios/stic/wp-content/uploads/sites/2/2026/03/Guia-Rapida-01-VPN-USUARIOS-ULL-Configuracion-del-cliente-VPN.docx-1.pdf?x2750087).
 
-Para conexiones VPN usando Windows ha de descargar el cliente VPN desde la
+Para establecer conexiones VPN desde fuera de la red de la ULL ha de descargar el cliente VPN para su sistema
+operativo desde la
 [web de FortiNet](https://www.fortinet.com/lat/support/product-downloads#vpn).
 
 [Este vídeo](https://www.youtube.com/watch?v=jHUfeN_NMYE&feature=youtu.be) 
