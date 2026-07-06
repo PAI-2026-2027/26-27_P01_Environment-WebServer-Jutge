@@ -3,8 +3,8 @@
 
 ### Objetivos
 Los objetivos de esta práctica son:
-* Realiar algunas tareas administrativas previas para facilitar el trabajo en la asignatura
-* Conocer y configurar el entorno de trabajo de la asignatura en el sistema Linux del IaaS
+* Realizar algunas tareas previas para facilitar el trabajo en la asignatura
+* Conocer y configurar el entorno de trabajo en el sistema Linux del IaaS
 * Configurar y practicar el uso del Visual Studio Code para editar ficheros en la máquina IaaS de la asignatura
 * Instalar un servidor web estático en la máquina virtual de la asignatura
 * Conocer la plataforma Jutge
@@ -17,8 +17,7 @@ que se tendrán en cuenta a la hora de evaluar esta práctica:
 * El alumnado ha de ser capaz de instalar y mantener ejecutando un servidor web estático
 * El alumnado debe ser capaz de subir la solución a un problema de Jutge a esa plataforma
 
-Para la realización de las prácticas de PAI
-debe Ud. estudiar los documentos que se enlazan desde
+Para la realización de las prácticas de PAI debe Ud. estudiar los documentos que se enlazan desde
 éste así como realizar todas las tareas que en este documento se proponen.
 
 **Avise al profesor** al finalizar la realización de cada una de las **TAREAS** que se indican a continuación. 
@@ -27,7 +26,6 @@ No inicie una nueva tarea sin haber revisado la anterior.
 **TAREA #01** Si aún no lo ha hecho, coloque una fotografía adecuada en su perfil del Campus Virtual de la ULL.
 
 ### Entorno de trabajo exterior a la ULL
-
 1. Para el trabajo en las prácticas de la asignatura se utilizará intensivamente el Sistema Operativo Linux,
 trabajando fundamentalmente en una [máquina virtual](https://es.wikipedia.org/wiki/M%C3%A1quina_virtual) disponible a través de la infraestructura 
 [IaaS](https://es.wikipedia.org/wiki/Infraestructura_como_servicio_(IaaS)) de la ULL.
@@ -57,21 +55,28 @@ Tenga esto en cuenta a la hora de decidirse por cualquiera de estas opciones.
 Una opción alternativa que se considera menos adecuada consiste en no instalar un sistema Linux sino acceder 
 a la máquina virtual IaaS de la asignatura desde Windows usando para ello un cliente ssh. 
 Se recomienda para este caso instalar en Windows [el cliente ssh PuTTY](https://putty.org/index.html) que puede Ud. descargar libremente.  
-[Este vídeo](https://www.youtube.com/watch?v=_-rS8QM0JaI) muestra cómo configurar la VPN en Windows y cómo usar Putty para acceder a una máquina virtual.
+%[Este vídeo](https://www.youtube.com/watch?v=_-rS8QM0JaI) muestra cómo configurar la VPN en Windows y cómo usar Putty para acceder a una máquina virtual.
 
 En todo caso recuerde que si desea acceder a las máquinas de la Universidad desde fuera del campus
 universitario necesitará Ud. configurar una conexión usando [VPN](https://es.wikipedia.org/wiki/Red_privada_virtual).
-Para configurar la conexión VPN siga las instrucciones de la página [Servicio de VPN de la ULL](https://www.ull.es/servicios/stic/2016/05/10/servicio-de-vpn-de-la-ull/).  
-Para conexiones VPN usando Windows ha de instalar la aplicación Global Protect tal como se explica en el documento
-[Guía de conexión VPN de la ULL](https://docs.google.com/document/d/1oL0QZiMcNe3dkJBW69_NX3ubrnT5q_3ntp2Q57p6xnc/edit?tab=t.0).
-[Esta imagen](https://raw.githubusercontent.com/fsande/IB-P01-EntornoIaaS/3b0223eef4fff02835108ac59ea8d2f2f26c43cc/img/GlobalProtect.PNG)
-muestra el establecimiento de la conexión VPN con la red de la ULL,
-[esta otra](https://raw.githubusercontent.com/fsande/IB-P01-EntornoIaaS/3b0223eef4fff02835108ac59ea8d2f2f26c43cc/img/GlobalProtect_InicioSesi%C3%B3n.PNG)
-muestra el inicio de sesión y finalmente
-[esta última](https://raw.githubusercontent.com/fsande/IB-P01-EntornoIaaS/3b0223eef4fff02835108ac59ea8d2f2f26c43cc/img/GlobalProtect_Conectado.PNG)
-muestra la conexión ya establecida.
+Para configurar la conexión VPN siga las instrucciones de la
+[Guía Rápida de Configuración del cliente VPN](https://www.ull.es/servicios/stic/wp-content/uploads/sites/2/2026/03/Guia-Rapida-01-VPN-USUARIOS-ULL-Configuracion-del-cliente-VPN.docx-1.pdf?x2750087).
+% la página [Servicio de VPN de la ULL](https://www.ull.es/servicios/stic/2016/05/10/servicio-de-vpn-de-la-ull/).  
 
-[Este vídeo](https://youtu.be/ZHZ-R--fQ68) muestra cómo establecer en linux una conexión vpn y [este otro](https://www.youtube.com/watch?v=jHUfeN_NMYE&feature=youtu.be) muestra cómo conectar desde linux usando ssh con una máquina virtual del IaaS.
+
+Para conexiones VPN usando Windows ha de descargar el cliente VPN desde la
+[web de FortiNet](https://www.fortinet.com/lat/support/product-downloads#vpn).
+
+
+%[Esta imagen](https://raw.githubusercontent.com/fsande/IB-P01-EntornoIaaS/3b0223eef4fff02835108ac59ea8d2f2f26c43cc/img/GlobalProtect.PNG)
+%muestra el establecimiento de la conexión VPN con la red de la ULL,
+%[esta otra](https://raw.githubusercontent.com/fsande/IB-P01-EntornoIaaS/3b0223eef4fff02835108ac59ea8d2f2f26c43cc/img/GlobalProtect_InicioSesi%C3%B3n.PNG)
+%muestra el inicio de sesión y finalmente
+%[esta última](https://raw.githubusercontent.com/fsande/IB-P01-EntornoIaaS/3b0223eef4fff02835108ac59ea8d2f2f26c43cc/img/GlobalProtect_Conectado.PNG)
+%muestra la conexión ya establecida.
+
+[Este vídeo](https://youtu.be/ZHZ-R--fQ68) muestra cómo establecer en linux una conexión vpn y 
+[Este otro vídeo](https://www.youtube.com/watch?v=jHUfeN_NMYE&feature=youtu.be) muestra cómo conectar desde linux usando ssh con una máquina virtual del IaaS.
 
 2. Estudie si le resulta necesario el documento 
 [Manual de administración de Máquinas](https://docs.google.com/document/d/1nj-dxu7LXrNhj3ewCdfaPSc8OV4e_TYpGTQdK78YExY/edit).
